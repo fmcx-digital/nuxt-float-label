@@ -17,8 +17,8 @@ node_modules
 dist
 
 # Nuxt
-/.nuxt
-/.output
+.nuxt
+.output
 .vercel_build_output
 .build-*
 .env
