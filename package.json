@@ -31,5 +31,26 @@
     "nuxt": "^3.0.0",
     "postcss": "^8.4.19",
     "postcss-nested": "^6.0.0"
-  }
+  },
+  "description": "## Development",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FMCX-digital/nuxt-float-label.git"
+  },
+  "keywords": [
+    "nuxt",
+    "float label",
+    "nuxt3",
+    "vue",
+    "vue3",
+    "nuxt float label",
+    "vue float label",
+    "input label",
+    "input placeholder"
+  ],
+  "author": "FMCX",
+  "bugs": {
+    "url": "https://github.com/FMCX-digital/nuxt-float-label/issues"
+  },
+  "homepage": "https://github.com/FMCX-digital/nuxt-float-label#readme"
 }

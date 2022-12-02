@@ -1,55 +1,3 @@
-<style lang="postcss">
-.fl-wrapper {
-  position: relative;
-  width: 100%;
-
-  input,
-  select {
-    padding: 0 10px;
-  }
-
-  textarea {
-    padding: 10px;
-  }
-
-  label {
-    display: block;
-  }
-
-  input,
-  select,
-  textarea {
-    box-sizing: border-box;
-    transition: colors, padding 0.2s;
-    height: 44px;
-    background: #ddd;
-    border: none;
-    width: 100%;
-  }
-}
-
-.fl-label {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 10px;
-  right: 0;
-  transition: opacity, top 0.2s;
-  font-size: 13px;
-}
-.fl-on-input {
-  top: 4px;
-  opacity: 0.5;
-}
-
-.fl-on-input + input,
-.fl-on-input + textarea,
-.fl-on-input + select {
-  font-size: 12px;
-  padding-top: 12px;
-}
-</style>
-
 <script lang="ts" setup>
 import { computed, onBeforeUnmount, onMounted, Ref, ref } from 'vue';
 
@@ -61,6 +9,10 @@ const props = defineProps({
   labelClass: {
     type: String,
     default: ''
+  },
+  dispatch: {
+    type: Boolean,
+    default: false
   }
 });
 
@@ -96,6 +48,10 @@ const updateIsActive = (e: Event) => {
   isActive.value = !!target.value;
 };
 
+const dispatchInput = () => (isActive.value = true);
+
+if (props.dispatch) dispatchInput();
+
 onMounted(() => {
   el.value = refEl.value?.querySelector('input, textarea, select');
 
@@ -118,9 +74,11 @@ onBeforeUnmount(() => {
 <template>
   <div ref="refEl" class="fl-wrapper">
     <ClientOnly>
-      <label class="fl-label" :class="{ 'fl-on-focus': isFocused, 'fl-on-input': isActive }">{{
-        floatLabel
-      }}</label>
+      <label
+        class="fl-label"
+        :class="[{ 'fl-on-focus': isFocused, 'fl-on-input': isActive }, labelClass]"
+        >{{ floatLabel }}</label
+      >
     </ClientOnly>
     <slot />
   </div>
