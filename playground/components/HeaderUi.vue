@@ -1,7 +1,7 @@
 <template>
-  <header class="bg-slate-900 h-20">
+  <header class="bg-black/40 h-20">
     <div class="flex justify-center items-center h-full">
-      <Logo class="w-24 h-auto" />
+      <FMCX class="h-[16px]" />
     </div>
   </header>
 </template>

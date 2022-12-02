@@ -9,7 +9,7 @@ useHead({
     class: 'font-main text-slate-600'
   },
   bodyAttrs: {
-    class: 'bg-slate-800'
+    class: 'bg-[#00293a]'
   },
   script: [
     {
@@ -35,6 +35,7 @@ onMounted(() => {
         <Meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <Meta name="robots" content="index, follow" />
         <Meta name="language" content="en" />
+        <Meta property="og:image" content="/meta-image.png" />
       </Head>
     </Html>
 
