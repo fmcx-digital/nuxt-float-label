@@ -98,6 +98,17 @@ form {
     <input type="text" placeholder="Name" />
 </NuxtFloatLabel>' />
       </Card>
+
+      <Card title="Showing float label on start setting dispatch to true">
+        <NuxtFloatLabel :dispatch="true">
+          <input type="text" placeholder="Name" />
+        </NuxtFloatLabel>
+
+        <Prism
+          code='<NuxtFloatLabel :dispatch="true">
+  <input type="text" placeholder="Name" />
+</NuxtFloatLabel>' />
+      </Card>
     </div>
   </form>
 </template>

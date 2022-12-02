@@ -10,7 +10,7 @@ defineProps({
 <template>
   <div>
     <div>
-      <h3>{{ title }}</h3>
+      <h3 v-html="title"></h3>
     </div>
     <slot />
   </div>

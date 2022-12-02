@@ -34,7 +34,7 @@ onMounted(() => {
         <Title>Nuxt Float Label</Title>
         <Meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <Meta name="robots" content="index, follow" />
-        <Meta name="language" />
+        <Meta name="language" content="en" />
       </Head>
     </Html>
 
