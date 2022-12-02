@@ -9,6 +9,11 @@ export default defineNuxtConfig({
     '@/assets/fonts/fontawesome/css/fontawesome.min.css',
     '@/assets/fonts/fontawesome/css/regular.min.css'
   ],
+  nitro: {
+    prerender: {
+      routes: ['/']
+    }
+  },
   postcss: {
     plugins: {
       autoprefixer: {},
