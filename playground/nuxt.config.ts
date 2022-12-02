@@ -14,6 +14,9 @@ export default defineNuxtConfig({
       routes: ['/']
     }
   },
+  experimental: {
+    payloadExtraction: false
+  },
   postcss: {
     plugins: {
       autoprefixer: {},

@@ -1,0 +1,1 @@
+import{f as a,o as n,F as l,K as e,R as o,M as s}from"./entry.79c4baf7.js";const u=a({__name:"Card",props:{title:{type:String,required:!0}},setup(t){return(r,i)=>(n(),l("div",null,[e("div",null,[e("h3",null,o(t.title),1)]),s(r.$slots,"default")]))}});export{u as _};

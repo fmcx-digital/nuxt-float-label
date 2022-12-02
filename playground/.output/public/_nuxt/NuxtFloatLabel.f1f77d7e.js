@@ -1,0 +1,1 @@
+import"./NuxtFloatLabel.vue_vue_type_script_setup_true_lang.bcecc92b.js";import{_ as i}from"./NuxtFloatLabel.vue_vue_type_script_setup_true_lang.bcecc92b.js";import"./client-only.ae871214.js";import"./entry.79c4baf7.js";export{i as default};
