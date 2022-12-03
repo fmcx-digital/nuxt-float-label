@@ -1,3 +1,22 @@
+## Quick Setup
+
+1. Add `nuxt-float-label` dependency to your project
+
+```bash
+# Using npm
+npm i -D nuxt-float-label
+```
+
+2. Add `nuxt-float-label` to the `modules` section of `nuxt.config.js`
+
+```js
+{
+  modules: [
+    'nuxt-float-label'
+  ]
+}
+```
+
 ## Props
 
 | Name | Type | Description | Required |
