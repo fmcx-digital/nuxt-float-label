@@ -1,6 +1,5 @@
 # Nuxt Float Label
-
-### Developed by [FMCX](http://fmcx.digital/).
+Developed by [FMCX](http://fmcx.digital/).
 <br/>
 <p>
   <a href="https://www.npmjs.com/package/nuxt-float-label">
@@ -10,6 +9,11 @@
     <img src="https://img.shields.io/npm/v/nuxt-float-label?color=%230066ff" alt="NPM"/>
   </a>
 </p>
+
+## Features
+- Apply float labels automatically to your **inputs**, **selects** and **textareas**
+- Works on Nuxt 3
+- Fully css customizable
 
 ## Quick Setup
 
