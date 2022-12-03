@@ -1,9 +1,11 @@
 <template>
   <div class="mt-20 space-y-10">
-    <div class="flex justify-center">
+    <div class="flex flex-col items-center justify-center space-y-6">
       <NuxtLink to="https://www.npmjs.com/package/nuxt-float-label" target="_blank">
         <img src="/symbol.svg" class="block w-[52px] mobile-max:w-[42px]" alt="Nuxt Float Label" />
       </NuxtLink>
+
+      <BtnGithub />
     </div>
     <div>
       <div class="h-16 flex justify-center items-center border-t border-t-white/10">

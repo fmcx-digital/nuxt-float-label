@@ -1,3 +1,5 @@
+![Nuxt Float Label](https://raw.githubusercontent.com/fmcx-digital/nuxt-float-label/main/playground/public/meta-image.png)
+
 # Nuxt Float Label
 Developed by [FMCX](http://fmcx.digital/).
 <br/>

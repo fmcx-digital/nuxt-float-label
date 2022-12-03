@@ -9,7 +9,7 @@ useHead({
     class: 'font-main text-slate-600'
   },
   bodyAttrs: {
-    class: 'bg-slate-800'
+    class: 'bg-[#002d3c]'
   },
   script: [
     {

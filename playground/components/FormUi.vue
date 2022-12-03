@@ -99,7 +99,7 @@ form {
 </NuxtFloatLabel>' />
       </Card>
 
-      <Card title="Showing float label on start setting dispatch to true">
+      <Card title="Show float label on start by setting dispatch to true">
         <NuxtFloatLabel :dispatch="true">
           <input type="text" placeholder="Name" />
         </NuxtFloatLabel>
