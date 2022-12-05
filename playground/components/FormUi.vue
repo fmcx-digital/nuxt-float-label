@@ -3,17 +3,10 @@ form {
   input,
   select,
   textarea {
-    @apply bg-slate-200 hover:bg-slate-300 transition-colors focus:outline-none rounded placeholder:text-slate-600 appearance-none;
+    @apply bg-slate-200 hover:bg-slate-300 focus:outline-none rounded placeholder:text-slate-600 appearance-none;
   }
   textarea {
     @apply h-28;
-  }
-  .fl-on-input + input,
-  .fl-on-input + select {
-    @apply pt-4;
-  }
-  .fl-on-input + textarea {
-    @apply pt-5;
   }
   .select {
     @apply relative flex;

@@ -47,7 +47,16 @@
 }
 
 .fl-on-input + input,
-.fl-on-input + textarea,
-.fl-on-input + select {
+.fl-on-input + select,
+.fl-on-input + textarea {
   font-size: 14px;
+}
+
+.fl-on-input + input,
+.fl-on-input + select {
+  padding-top: 16px;
+}
+
+.fl-on-input + textarea {
+  padding-top: 20px;
 }

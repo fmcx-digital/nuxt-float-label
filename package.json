@@ -1,6 +1,6 @@
 {
   "name": "nuxt-float-label",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -41,7 +41,7 @@
   "description": "## Development",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FMCX-digital/nuxt-float-label.git"
+    "url": "git+https://github.com/fmcx-digital/nuxt-float-label.git"
   },
   "keywords": [
     "nuxt",
@@ -56,7 +56,7 @@
   ],
   "author": "FMCX",
   "bugs": {
-    "url": "https://github.com/FMCX-digital/nuxt-float-label/issues"
+    "url": "https://github.com/fmcx-digital/nuxt-float-label/issues"
   },
-  "homepage": "https://github.com/FMCX-digital/nuxt-float-label#readme"
+  "homepage": "https://github.com/fmcx-digital/nuxt-float-label#readme"
 }
