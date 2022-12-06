@@ -1,8 +1,7 @@
 ![Nuxt Float Label](https://raw.githubusercontent.com/fmcx-digital/nuxt-float-label/main/playground/public/meta-image.png)
 
 # Nuxt Float Label
-Developed by [FMCX](http://fmcx.digital/).
-<br/>
+### Access the [demo](https://nuxt-float-label.onrender.com/) website.
 <p>
   <a href="https://www.npmjs.com/package/nuxt-float-label">
     <img src="https://img.shields.io/npm/dw/nuxt-float-label" alt="Downloads">
@@ -35,9 +34,6 @@ npm i -D nuxt-float-label
   ]
 }
 ```
-
-### Access the [demo](https://nuxt-float-label.onrender.com/) website.
-
 
 ## Props
 
