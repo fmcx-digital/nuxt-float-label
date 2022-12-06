@@ -15,6 +15,7 @@
 - Apply float labels automatically to your **inputs**, **selects** and **textareas**
 - Works on Nuxt 3
 - Fully css customizable
+- [Demo website](https://nuxt-float-label.onrender.com/)
 
 ## Quick Setup
 
