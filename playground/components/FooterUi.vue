@@ -5,7 +5,7 @@
         <img src="/symbol.svg" class="block w-[52px] mobile-max:w-[42px]" alt="Nuxt Float Label" />
       </NuxtLink>
 
-      <BtnGithub />
+      <LazyBtnGithub />
     </div>
     <div>
       <div class="h-16 flex justify-center items-center border-t border-t-white/10">
