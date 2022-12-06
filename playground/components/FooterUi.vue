@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+import GithubButton from 'vue-github-button';
+</script>
+
 <template>
   <div class="mt-20 space-y-10">
     <div class="flex flex-col items-center justify-center space-y-6">
@@ -5,7 +9,14 @@
         <img src="/symbol.svg" class="block w-[52px] mobile-max:w-[42px]" alt="Nuxt Float Label" />
       </NuxtLink>
 
-      <LazyBtnGithub />
+      <github-button
+        href="https://github.com/fmcx-digital/nuxt-float-label"
+        data-color-scheme="no-preference: dark_high_contrast; light: dark_high_contrast; dark: dark_high_contrast;"
+        data-size="large"
+        data-show-count="true"
+        aria-label="Star fmcx-digital/nuxt-float-label on GitHub"
+        >Star</github-button
+      >
     </div>
     <div>
       <div class="h-16 flex justify-center items-center border-t border-t-white/10">

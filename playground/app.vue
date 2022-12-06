@@ -10,14 +10,7 @@ useHead({
   },
   bodyAttrs: {
     class: 'bg-[#002d3c]'
-  },
-  script: [
-    {
-      src: 'https://buttons.github.io/buttons.js',
-      async: true,
-      defer: true
-    }
-  ]
+  }
 });
 
 onMounted(() => {
