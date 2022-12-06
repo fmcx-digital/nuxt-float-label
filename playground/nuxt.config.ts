@@ -8,6 +8,10 @@ export default defineNuxtConfig({
     '@/assets/fonts/fontawesome/css/fontawesome.min.css',
     '@/assets/fonts/fontawesome/css/regular.min.css'
   ],
+  ssr: false,
+  experimental: {
+    payloadExtraction: false
+  },
   postcss: {
     plugins: {
       autoprefixer: {},
